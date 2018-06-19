@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>畅销书《凤凰项目》之后-作者对DevOps的深度思考 · </title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="中国, devops, 社区">	
+  
+
+  
+  <meta name="description" content="中国DevOpsDays社区">	
+  
+
+  <meta name="generator" content="Hugo 0.42.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://china-devopsdays.github.io/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://china-devopsdays.github.io/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://china-devopsdays.github.io/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="https://china-devopsdays.github.io/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://china-devopsdays.github.io/img/apple-touch-icon.png" />
+  
+
+  <link href="https://china-devopsdays.github.io/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://china-devopsdays.github.io/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://china-devopsdays.github.io/index.xml" type="application/rss+xml" title="中国DevOpsDays社区">
+
+  
+  <link rel="stylesheet" href="https://china-devopsdays.github.io/css/prism.css" />
+
+  
+  <meta property="og:title" content="畅销书《凤凰项目》之后-作者对DevOps的深度思考" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/gene-kim-deep-thinking-about-devops//" />
+  <meta property="og:image" content="img/logo.png" />
+
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://china-devopsdays.github.io/">
+                    <img src="https://china-devopsdays.github.io/img/logo.png" alt="畅销书《凤凰项目》之后-作者对DevOps的深度思考 logo" class="hidden-xs hidden-sm">
+                    <img src="https://china-devopsdays.github.io/img/logo-small.png" alt="畅销书《凤凰项目》之后-作者对DevOps的深度思考 logo" class="visible-xs visible-sm">
+                    <span class="sr-only">畅销书《凤凰项目》之后-作者对DevOps的深度思考 - 跳到主页</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">切换导航</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/events/">Events</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/sponsor/">Sponsor</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/speaking/">speaking</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/organizing/">Organizing</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/">About</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>畅销书《凤凰项目》之后-作者对DevOps的深度思考</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-left">
+                        作者许峰
+                        
+                        |
+                        
+                        
+                        
+                        归档于<a href="https://china-devopsdays.github.io/categories/%e5%88%86%e4%ba%ab">分享</a>
+                        
+                        |
+                        
+                        发表于
+                        2018-06-06
+                        |
+                        
+                        
+                        
+                        <a href="https://china-devopsdays.github.io/tags/devops/">#devops</a>&nbsp;
+                        
+                        <a href="https://china-devopsdays.github.io/tags/%E5%87%A4%E5%87%B0%E9%A1%B9%E7%9B%AE/">#凤凰项目</a>&nbsp;
+                        
+                        
+                        
+                        </p>
+                        <div id="post-content">
+                          
+
+<h1 id="前言">前言</h1>
+
+<p>《凤凰项目》是Gene Kim作为主创于2013年出版的一本小说体IT管理读物，是公认的DevOps入门第一本书。这本书从构思到成书花了10多年时间，出版之后获得了巨大的成功。</p>
+
+<p>《凤凰项目》颠覆性的意义在于把过去60多年在工业生产领域的最佳实践引入到软件交付的生命周期中。 这里涉及的主要概念包含限制理论（TOC）和DevOps的三步工作法：系统思维（在《DevOps Handbook》里称为Flow），反馈，以及持续学习与实验。</p>
+
+<p><img src="/old/Picture1.png" alt="Picture1" /></p>
+
+<p><em>《凤凰项目》沙盘特别版</em></p>
+
+<p>由于《凤凰项目》更多是新的思维方式的介绍，书中并没有涉及太多具体的实践层面的内容。Gene Kim在此之后，联合其他三位DevOps行业里的顶级专家（Jez Humble，John Willis, Patrick Debois)，计划出版一本DevOps实践指南（《DevOps Handbook》）。由于四位都是DevOps行业里的顶级专家，所以很乐观的估计2～3年就可以出版了。最后这本书的创作到出版花了5年多时间。为什么会这么长时间呢？Gene Kim在2017年的DevOpsDays 西雅图站做了阐述。因为在写作过程中，有很多出乎作者意料之外的发现。Gene Kim在这个主题演讲就对这些“意外”做了总结，共有六个方面。</p>
+
+<h1 id="一-devops的业务价值甚至比我们想的还要高">一、DevOps的业务价值甚至比我们想的还要高</h1>
+
+<p>为了更量化地理解不同IT绩效组织的状况，Gene Kim、Jez Humble（《持续交付》、《Lean Enterprise》作者）和Nicole Forsgren一起成立了DORA（DevOps Research &amp; Assessment）公司，专注于IT组织的绩效调查，并从2014年开始和Puppet合作每年发布一版年度《State of DevOps Report》（DevOps 现状调查报告）。在演讲中，Gene Kim引用了2016年的调查数据：比较起低效能的IT组织，高效能IT组织的部署频率是前者的200倍，交付前置时间比前者少，变更失败比率低5倍。（注：2017年的报告里这些数据有变化：低效能组织在速度上有提升，但在稳定性上差距拉大）。总体上高效能组织在生产力和稳定性方面有明显的优势。</p>
+
+<p><img src="/old/Picture9.png" alt="Picture2" /></p>
+
+<p><em>IT效能指标：2016和2017的数据对比（摘自《2017 State of DevOps Report》）</em></p>
+
+<p>而IT的绩效对公司业务也有显著影响：拥有高绩效IT组织的公司其平均市值比要比那些IT绩效低下的公司高50%。</p>
+
+<p>注：历年的State of DevOps Report都可以在网上找到，是免费资源。另外，一个易被人忽视的报告《DevOps ROI Whitepaper》（DevOps投资收益白皮书）详细分析了如何计算企业在DevOps上的投入是否值得。如果需要给公司高管做决策分析的话，里面的数据和分析方法很值得借鉴（下载地址：<a href="https://devops-research.com/roi/）。">https://devops-research.com/roi/）。</a></p>
+
+<h1 id="二-devops-对运维人员和开发人员的改变一样巨大">二、DevOps 对运维人员和开发人员的改变一样巨大</h1>
+
+<p>《凤凰项目》的副标题是“一个IT运维的传奇故事”，实际上也是从一位运维经理的视角写的。DevOps可以把运维人员从非人类的作息时间里拯救出来。比如下面这位哥们。</p>
+
+<p><img src="/old/Picture2.png" alt="Picture3" /></p>
+
+<p><em>（编者：最近一个从事运维的学员表示她的生活差不多就是这样子滴）</em></p>
+
+<p>DevOps对开发人员也一样帮助大大滴。比如下面这位开心喝着啤酒的哥们。</p>
+
+<p><img src="/old/Picture3.png" alt="Picture4" /></p>
+
+<p>DevOps提倡打破部门墙，建立不怪罪的互信文化，通过自动化手段快速定位问题、及时反馈，团队共用一套工具、知识共享，着眼全局避免局部优化，遵守统一规则，建立可视化价值流，开发人员也要对运维工作负责，版本上线和演练日都发生在工作时间等等。这些实践都使IT更有效率、减少无意义的浪费、工作更有成就感，也更加有趣和人性化。DevOps的理念现在也在被更多的部门所采用，已经应用到业务部门。</p>
+
+<h1 id="三-衡量代码部署前置时间的重要性">三、衡量代码部署前置时间的重要性</h1>
+
+<p>从2009年那场著名的演讲《10+ Deploys per Day：Dev and Ops Cooperation at Flickr》开始，部署频率已经是衡量DevOps成熟度的一个关键指标。但在工业领域，前置时间一直被用来作为衡量生产绩效的最重要的指标。经过过去几年的发展，部署前置时间（从开发者提交代码到版本控制系统开始，到代码部署上线这一总时长）已经被DevOps社区采用为除部署频率之外的另一个衡量速度的关键指标。</p>
+
+<p><img src="/old/Picture4.png" alt="Picture5" /></p>
+
+<p><em>前置时间从提交阶段开始到部署到生产环境</em></p>
+
+<p>Gene在这里给出了他的分析，为什么前置时间应该聚焦在部署这一阶段而非整个交付生命周期。从下表可以看到，在代码提交之前的活动，是设计和开发类型的活动。这一部分基本上是不可重复的、很难自动化，它的时长也往往难以直接控制。而代码提交到上线主要是测试和运维工作，完全可以做到可重复、自动化、机械化。而这一前置时间的快速完成可以给到前一阶段（设计和开发）足够短的反馈周期，用以快速解决问题和响应客户需求。</p>
+
+<p><img src="/old/Picture5.png" alt="Picture6" /></p>
+
+<p><em>软件交付周期可以以提交到版本控制系统划分为性质截然不同的两个阶段</em></p>
+
+<p>如果按照传统的瀑布模型开发软件，可能在测试阶段发现的代码问题已经是在代码完成几个月之后了。在这期间，团队很多开发人员都已经提交过各自的代码，那么如何能让开发人员确认、回忆并找出问题所在呢？这需要花费大量的时间。而高绩效组织少于一个小时的部署前置时间就可以让组织和个人做到快速试错、持续学习。</p>
+
+<h1 id="四-康威定律的应用">四、康威定律的应用</h1>
+
+<p>康威定律的描述是“设计系统的组织，其产生的设计和架构等价于组织间的沟通结构“。</p>
+
+<p>换句话说，团队的组织方式对我们生产的软件，架构设计和生产结果有着重大的影响。为了得到理想的结果，我们需要康威定律为我们的目标服务，而不是给我们制造阻碍。</p>
+
+<p>Gene Kim本人一直困惑于也这一定律的应用，直到他了解到Etsy的例子：</p>
+
+<blockquote>
+<p>Etsy在2008年有一个前端PHP开发团队负责业务逻辑，和一个后端DBA团队负责存储过程，两个团队协同开发软件。根据康威定律，这自然而然产生了有依赖关系的两层架构。而这种依赖关系使得很多工作都快不起来。</p>
+
+<p>为了解决这一问题，Etsy在2009引入了Sprouter作为中间层，期望前端开发人员专注PHP代码的编写，DBA专注于编写存储过程，而Sprouter（及其维护团队）帮助隐藏数据库的实现细节，并对接PHP代码和对应的存储过程。本来这一变化意在简化和协调前后端的工作，结果按照康威定律，原来一个变更需要改动两层，而现在三层都需要改动。这使得前置时间变得更长，而且可靠性也跟着降低（单点故障）。</p>
+</blockquote>
+
+<p>2010年：意识的问题的Etsy管理团队决定彻底移除Sprouter，并把所有业务逻辑都从数据库层移到应用层。同时引入PHP ORM（Object Relational Mapping）来映射对象和数据库表的关系。这一改变使得所有业务逻辑变更都可以由一个团队来完成。</p>
+
+<p><img src="/old/Picture6.png" alt="Picture7" /></p>
+
+<p><em>Etsy Sprouter的诞生与死亡</em></p>
+
+<p>从这一案例可以看到，当组织架构设计不好时，康威定律对组织的效能是一种伤害。而如果我们围绕目标精心设计组织架构，康威定律就会对我们的工作起到正向的促进作用。</p>
+
+<h1 id="五-devops使得组织成长为动态的学习型组织">五、DevOps使得组织成长为动态的学习型组织</h1>
+
+<p>在这里Gene介绍了他在写作《DevOps Handbook》时的最大发现：Steven Spear博士的“四个能力”模型，及其对DevOps的重要指导意义。</p>
+
+<p><img src="/old/Picture7.png" alt="Picture8" /></p>
+
+<p><em>Steven Spear博士的“四个能力”模型</em></p>
+
+<p>这四个能力在DevOps的实践中都能找到完整的对应。</p>
+
+<ul>
+<li>对应第1个能力，DevOps的自动化测试以及各种遥测（Telemetry）可以帮助团队在第一时间发现问题。</li>
+<li>对应第2个能力的实践，比如部署流水线的安灯拉绳（Andon Cord）机制。假设某团队成员新提交的变更使构建处于失败状态，该成员需要在10分钟内解决问题或者撤回该变更。而团队成员可以一起帮助问题解决。这一实践在可视化管理（比如看板墙）中也有清晰体现（团队解决长时间停留的任务）。</li>
+<li>对应第3个能力的实践包括单一的、共享的源代码存储库，免责事后分析（Blameless Post-mortems），混沌猴子（Chaos Monkeys），组织的学习日，以及采用开源工具等。</li>
+<li>对应第4个能力可见《2017 State of DevOps Report》中对变革领导力的五个维度的介绍。</li>
+</ul>
+
+<h1 id="六-devops适用于独角兽-互联网企业-也适用于马驹-传统企业">六、DevOps适用于独角兽（互联网企业），也适用于马驹（传统企业）</h1>
+
+<p>其实《凤凰项目》就是描写的传统企业IT转型的故事，那么这个对Gene Kim不应算作“意外”吧。不过Gene确实在《凤凰项目》之后连续举办了多届DevOps企业峰会（DevOps Enterprise Summit），专门为传统企业的DevOps转型提供分享交流的平台。这些企业有金融（巴克莱银行、荷兰银行、苏黎世保险等、美国全国保险、第一资本），零售（梅西百货、塔吉特超市、沃尔玛），政府（美国国土安全局），运动服装（耐克），日化（联合丽华）等等。每年大会都会有新的企业上台分享自己企业的DevOps转型经验。</p>
+
+<p>联想到编者最近接触国内的几家银行，很多IT经理都会感慨银行业跟互联网企业不同，推动DevOps转型不易。那么我们对照英国巴克莱银行的例子看一看，该银行成立于1690年（是的你没看错，当时中国还在康熙治下），目前雇员人数达13万人，每天要处理的交易付款相当于全英GDP的30%。而一旦巴克莱银行的系统出现问题，英国乃至世界的很多企业都会出现严重的问题。而在该行16个月的DevOps转型期之后，他们一个系统（Derivatives System）的测试时长从8天缩短到20分钟，发布频率从一个月7次变成一个月70次。如果这么一个庞然大物可以成功转型，可以说没有任何一个“马驹”是不能转型的。</p>
+
+<h1 id="结论">结论</h1>
+
+<p>Gene最后给出他的结论：按照IDC的报告，地球上有800万开发人员，800万运维人员（QA同学在哪里？），而即使是最大胆的假设现在也只有0.5%的IT人员在以DevOps提倡的方式工作。我们的使命是要让剩下的99.5%的人能从现在的低效、浪费、非人性化的工作方式中解放出来，去做更有价值、更符合人类本身创造里的工作。</p>
+
+<h1 id="后记">后记</h1>
+
+<h2 id="关于-凤凰项目-沙盘的故事">关于《凤凰项目》沙盘的故事</h2>
+
+<p>早在《凤凰项目》出版的五六年前作者Gene Kim曾经参加过由欧洲著名沙盘公司Gaming Works创始人Paul Wilkingson亲自挂帅组织的“阿波罗13号”知名IT服务管理沙盘。《凤凰项目》出版后Gene Kim再次找到了Gaming Works的Paul并表达了开发DevOps沙盘的想法。在2016 年本文开篇的那本《凤凰项目-沙盘特别版》图书和凤凰项目沙盘诞生，随即受到全球DevOps实践者的追捧，凤凰项目沙盘的发布将《凤凰项目》图书的热度再次推向高潮。</p>
+
+<h2 id="关于-devops-handbook-的故事">关于《DevOps Handbook》的故事</h2>
+
+<p><img src="/old/Picture8.png" alt="Picture9" /></p>
+
+<p><em>《DevOps Handbook》编写历5年多时间，收入众多企业DevOps转型案例</em></p>
+
+<p>Gene Kim这个演讲其实也是对《DevOps Handbook》成书前后的简单介绍。非常推荐对DevOps实践有更深兴趣的人群阅读（该书中文版《DevOps实践指南》将于2018年春出版并在DevOpsDays北京站举行签发仪式》），此外，该书已经被EXIN国际信息科学考试学会指定为全球DevOps Professional认证考试的唯一官方教材。中文版将包含该认证考试的样题和解析部分。</p>
+
+<ul>
+<li>本文编译：许峰</li>
+<li>EXIN DevOps 授权讲师，国际最佳实践管理联盟（IBPA）特邀专家</li>
+</ul>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">搜索</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="搜索">
+                <input type="hidden" name="sitesearch" value="https://china-devopsdays.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">分类</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="https://china-devopsdays.github.io/categories/%e5%88%86%e4%ba%ab">分享 (2)</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/categories/%e5%a4%a7%e4%bc%9a">大会 (5)</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/categories/%e7%a4%be%e5%8c%ba">社区 (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+      <h3 class="panel-title">标签</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="https://china-devopsdays.github.io/tags/2017%e4%b8%8a%e6%b5%b7%e7%ab%99"><i class="fa fa-tags"></i> 2017上海站</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/2017%e5%8c%97%e4%ba%ac%e7%ab%99"><i class="fa fa-tags"></i> 2017北京站</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/2018%e5%8c%97%e4%ba%ac%e7%ab%99"><i class="fa fa-tags"></i> 2018北京站</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/devops"><i class="fa fa-tags"></i> devops</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/devopsdays"><i class="fa fa-tags"></i> devopsdays</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/%e5%87%a4%e5%87%b0%e9%a1%b9%e7%9b%ae"><i class="fa fa-tags"></i> 凤凰项目</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/%e5%bf%97%e6%84%bf%e8%80%85"><i class="fa fa-tags"></i> 志愿者</a>
+            </li>
+            
+            <li><a href="https://china-devopsdays.github.io/tags/%e8%b5%9e%e5%8a%a9%e5%95%86"><i class="fa fa-tags"></i> 赞助商</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>关于我们</h4>
+
+            中国DevOpsDays社区
+            
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>最新文章</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://china-devopsdays.github.io/blog/my-new-post-title/">
+                          
+                          <img src="/img/blog-bg.jpg" class="img-responsive" alt="第一次社区会议-演示投稿文章标题">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://china-devopsdays.github.io/blog/my-new-post-title/">第一次社区会议-演示投稿文章标题</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://china-devopsdays.github.io/blog/devopsdays-china-1st/">
+                          
+                          <img src="/img/blog-bg.jpg" class="img-responsive" alt="DevOpsDays中国首站纪实">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://china-devopsdays.github.io/blog/devopsdays-china-1st/">DevOpsDays中国首站纪实</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://china-devopsdays.github.io/blog/gene-kim-deep-thinking-about-devops/">
+                          
+                          <img src="/img/blog-bg.jpg" class="img-responsive" alt="畅销书《凤凰项目》之后-作者对DevOps的深度思考">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://china-devopsdays.github.io/blog/gene-kim-deep-thinking-about-devops/">畅销书《凤凰项目》之后-作者对DevOps的深度思考</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>联系方式</h4>
+
+            官网网址：</strong>
+        <br>http://DevOpsDays.org
+        <br>官方微信号：
+        <br>OfficialDevOpsDays
+        <br>中国组织者邮箱：
+        <br>organizer@ChinaDevOpsDays.org
+      </p>
+      
+
+
+            <a href="/contact" class="btn btn-small btn-template-main">跳到联系页面</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2018; all rights reserved.</p>
+            
+            <p class="pull-right">
+              模板来自 <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              移植到 Hugo 来自 <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+<script src="https://china-devopsdays.github.io/js/front.js"></script>
+
+
+<script src="https://china-devopsdays.github.io/js/owl.carousel.min.js"></script>
+
+<script src="https://china-devopsdays.github.io/js/prism.js"></script>
+
+
+  </body>
+</html>

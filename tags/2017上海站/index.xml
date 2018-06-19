@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017上海站 on 中国DevOpsDays社区</title>
+    <link>https://china-devopsdays.github.io/tags/2017%E4%B8%8A%E6%B5%B7%E7%AB%99/</link>
+    <description>Recent content in 2017上海站 on 中国DevOpsDays社区</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 03 Jan 2018 06:44:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://china-devopsdays.github.io/tags/2017%E4%B8%8A%E6%B5%B7%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2017 DevOpsDays上海站完整日程【百格】</title>
+      <link>https://china-devopsdays.github.io/blog/2017-devopsdays-shanghai/</link>
+      <pubDate>Wed, 03 Jan 2018 06:44:46 +0800</pubDate>
+      
+      <guid>https://china-devopsdays.github.io/blog/2017-devopsdays-shanghai/</guid>
+      <description>https://www.bagevent.com/event/510260?bag_track=bagevent</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>志愿者 on 中国DevOpsDays社区</title>
+    <link>https://china-devopsdays.github.io/tags/%E5%BF%97%E6%84%BF%E8%80%85/</link>
+    <description>Recent content in 志愿者 on 中国DevOpsDays社区</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 28 Mar 2018 06:44:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://china-devopsdays.github.io/tags/%E5%BF%97%E6%84%BF%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>招募社区志愿者的通知</title>
+      <link>https://china-devopsdays.github.io/blog/recruit-volunteers/</link>
+      <pubDate>Wed, 28 Mar 2018 06:44:46 +0800</pubDate>
+      
+      <guid>https://china-devopsdays.github.io/blog/recruit-volunteers/</guid>
+      <description>指导思想 随着DevOpsDays大会和相关活动在国内的深入开展，目前国内的IT领域里正掀起了一场关于技术、文化和管理的“DevOps运动”。
+中国DevOpsDays的核心组织者们紧紧地围绕着加速经验分享、知识传播和实践推广的工作目标，以提升和优化IT行业的素质和文化为主线。本着“平等、分享、互助和进步”的社区精神，号召大家积极地参与到DevOps社区志愿者服务中来。
+志愿者招募对象：来自全国各个城市，对DevOps的由来和历史有初步的了解，有分享精神，能在线上或线下的各种社区活动里以社区推广大使身份参与并与社区互动。
+社区活动内容 以下是社区活动内容的征询稿，希望以后会逐步完善，希望下列各种类的活动能在全国各个城市的线上和线下蓬勃开展。
+A1-DevOps经验分享/读书会 以任一志愿者，或者几个志愿者的自组织团队为单位，发起组织，并开展和实施线上和线下的小型分享会，活动时间是1小时到3小时。志愿者们负责识别和提议分享主题和分享人。推广和宣传活动信息。推荐和识别所需的场地（针对线下活动）。参与报名、签到、反馈收集和分析等活动。事后回顾总结，计划后期活动。
+A2-DevOps MeetUp 以城市为单位，由城市的主要负责人（由社区推举）发起，定期的举办DevOps社区MeetUp活动。志愿者们负责参与活动的计划，活动的推广，分享主题征集，活动日程安排，人员报名、签到和反馈收集和分析等活动。活动时间可以是周末半天/全天，或者下班以后时段，时间长度4小时以上，不包含日程结束之后的自由社交时间。推荐和识别所需要的场地和赞助商。
+A3-DevOpsDays大会 协助和配合大会组委会，参与大会的运作，推广大会日程，参与大会的各种会务工作。在大会的过程中积极的和与会者互动，共同营造和谐良好的DevOps社区氛围。
+参与报名 请扫下方的二维码报名。</description>
+    </item>
+    
+  </channel>
+</rss>

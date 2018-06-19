@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>赞助商 on 中国DevOpsDays社区</title>
+    <link>https://china-devopsdays.github.io/tags/%E8%B5%9E%E5%8A%A9%E5%95%86/</link>
+    <description>Recent content in 赞助商 on 中国DevOpsDays社区</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 03 Apr 2018 06:44:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://china-devopsdays.github.io/tags/%E8%B5%9E%E5%8A%A9%E5%95%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>北京站大会迎来首批赞助商</title>
+      <link>https://china-devopsdays.github.io/blog/beijing-conference-first-sponsors/</link>
+      <pubDate>Tue, 03 Apr 2018 06:44:46 +0800</pubDate>
+      
+      <guid>https://china-devopsdays.github.io/blog/beijing-conference-first-sponsors/</guid>
+      <description>我们非常兴奋的宣布今年的首批赞助商名单，DevOpsDays中国社区感谢你们的大力支持。让我们共同推动中国的DevOps运动的发展。
+金牌赞助商 灵雀云
+华为DevCloud
+JFrog杰蛙
+社区赞助商 cio时代
+开源中国</description>
+    </item>
+    
+  </channel>
+</rss>

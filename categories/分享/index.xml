@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分享 on 中国DevOpsDays社区</title>
+    <link>https://china-devopsdays.github.io/categories/%E5%88%86%E4%BA%AB/</link>
+    <description>Recent content in 分享 on 中国DevOpsDays社区</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 19 Jun 2018 17:00:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://china-devopsdays.github.io/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一次社区会议-演示投稿文章标题</title>
+      <link>https://china-devopsdays.github.io/blog/my-new-post-title/</link>
+      <pubDate>Tue, 19 Jun 2018 17:00:49 +0800</pubDate>
+      
+      <guid>https://china-devopsdays.github.io/blog/my-new-post-title/</guid>
+      <description>向社区网站投稿的方法有两种：
+ GitHub 代码投稿，提交PR 邮件投稿  本文主要描述代码投稿的详细步骤和方法。
+包括修改投稿文章草稿的元数据字段，编辑和本地预览文章，提交代码等步骤。
+标题 title: &amp;ldquo;My New Post Title&amp;rdquo; - &amp;gt; title: &amp;ldquo;第一次社区会议演示文章标题&amp;rdquo;
+作者 author: &amp;ldquo;投稿人&amp;rdquo; -&amp;gt; author: &amp;ldquo;姓名&amp;rdquo;
+文章摘要 summary: &amp;ldquo;文章摘要&amp;rdquo; -&amp;gt; summary: &amp;ldquo;文章摘要是一句话的概要说明，让读者了解这篇文章。&amp;rdquo;
+标签 tags: [&amp;ldquo;DevOps&amp;rdquo;] - &amp;gt; tags: [&amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;]
+不要超过10个标签，建议5个左右，中英文都可以。
+分类 categories: [&amp;ldquo;分享&amp;rdquo;] -&amp;gt; categories: [&amp;ldquo;投稿&amp;rdquo;]
+投稿以后，这篇文章会被再次准确分类。
+正文 正文用Markdown格式编写，文章的图片放在 static/blog 目录下。
+建议使用微软的 Visual Studio Code 编辑器。
+随时在本地浏览编辑结果，如果有什么问题，请在志愿者群里提问。
+最后提交工作成果。
+代码库git操作命令参考 以下命令是在Windows10操作系统下，在cmder命令行工具中的实际执行结果（cmder接受linux下的常用命令）。Linux和Mac OS系统也可以参考
+对所有操作系统的需求如下：
+ 安装git 安装Markdown编辑器 安装hugo服务器，在windows下就是一个可执行文件 hugo.exe ；把它放到合适的路径下即可。  Fork 代码库 将网站的代码库Fork为个人的代码库。</description>
+    </item>
+    
+    <item>
+      <title>畅销书《凤凰项目》之后-作者对DevOps的深度思考</title>
+      <link>https://china-devopsdays.github.io/blog/gene-kim-deep-thinking-about-devops/</link>
+      <pubDate>Wed, 06 Jun 2018 06:44:46 +0800</pubDate>
+      
+      <guid>https://china-devopsdays.github.io/blog/gene-kim-deep-thinking-about-devops/</guid>
+      <description>前言 《凤凰项目》是Gene Kim作为主创于2013年出版的一本小说体IT管理读物，是公认的DevOps入门第一本书。这本书从构思到成书花了10多年时间，出版之后获得了巨大的成功。
+《凤凰项目》颠覆性的意义在于把过去60多年在工业生产领域的最佳实践引入到软件交付的生命周期中。 这里涉及的主要概念包含限制理论（TOC）和DevOps的三步工作法：系统思维（在《DevOps Handbook》里称为Flow），反馈，以及持续学习与实验。
+《凤凰项目》沙盘特别版
+由于《凤凰项目》更多是新的思维方式的介绍，书中并没有涉及太多具体的实践层面的内容。Gene Kim在此之后，联合其他三位DevOps行业里的顶级专家（Jez Humble，John Willis, Patrick Debois)，计划出版一本DevOps实践指南（《DevOps Handbook》）。由于四位都是DevOps行业里的顶级专家，所以很乐观的估计2～3年就可以出版了。最后这本书的创作到出版花了5年多时间。为什么会这么长时间呢？Gene Kim在2017年的DevOpsDays 西雅图站做了阐述。因为在写作过程中，有很多出乎作者意料之外的发现。Gene Kim在这个主题演讲就对这些“意外”做了总结，共有六个方面。
+一、DevOps的业务价值甚至比我们想的还要高 为了更量化地理解不同IT绩效组织的状况，Gene Kim、Jez Humble（《持续交付》、《Lean Enterprise》作者）和Nicole Forsgren一起成立了DORA（DevOps Research &amp;amp; Assessment）公司，专注于IT组织的绩效调查，并从2014年开始和Puppet合作每年发布一版年度《State of DevOps Report》（DevOps 现状调查报告）。在演讲中，Gene Kim引用了2016年的调查数据：比较起低效能的IT组织，高效能IT组织的部署频率是前者的200倍，交付前置时间比前者少，变更失败比率低5倍。（注：2017年的报告里这些数据有变化：低效能组织在速度上有提升，但在稳定性上差距拉大）。总体上高效能组织在生产力和稳定性方面有明显的优势。
+IT效能指标：2016和2017的数据对比（摘自《2017 State of DevOps Report》）
+而IT的绩效对公司业务也有显著影响：拥有高绩效IT组织的公司其平均市值比要比那些IT绩效低下的公司高50%。
+注：历年的State of DevOps Report都可以在网上找到，是免费资源。另外，一个易被人忽视的报告《DevOps ROI Whitepaper》（DevOps投资收益白皮书）详细分析了如何计算企业在DevOps上的投入是否值得。如果需要给公司高管做决策分析的话，里面的数据和分析方法很值得借鉴（下载地址：https://devops-research.com/roi/）。
+二、DevOps 对运维人员和开发人员的改变一样巨大 《凤凰项目》的副标题是“一个IT运维的传奇故事”，实际上也是从一位运维经理的视角写的。DevOps可以把运维人员从非人类的作息时间里拯救出来。比如下面这位哥们。
+（编者：最近一个从事运维的学员表示她的生活差不多就是这样子滴）
+DevOps对开发人员也一样帮助大大滴。比如下面这位开心喝着啤酒的哥们。
+DevOps提倡打破部门墙，建立不怪罪的互信文化，通过自动化手段快速定位问题、及时反馈，团队共用一套工具、知识共享，着眼全局避免局部优化，遵守统一规则，建立可视化价值流，开发人员也要对运维工作负责，版本上线和演练日都发生在工作时间等等。这些实践都使IT更有效率、减少无意义的浪费、工作更有成就感，也更加有趣和人性化。DevOps的理念现在也在被更多的部门所采用，已经应用到业务部门。
+三、衡量代码部署前置时间的重要性 从2009年那场著名的演讲《10+ Deploys per Day：Dev and Ops Cooperation at Flickr》开始，部署频率已经是衡量DevOps成熟度的一个关键指标。但在工业领域，前置时间一直被用来作为衡量生产绩效的最重要的指标。经过过去几年的发展，部署前置时间（从开发者提交代码到版本控制系统开始，到代码部署上线这一总时长）已经被DevOps社区采用为除部署频率之外的另一个衡量速度的关键指标。
+前置时间从提交阶段开始到部署到生产环境
+Gene在这里给出了他的分析，为什么前置时间应该聚焦在部署这一阶段而非整个交付生命周期。从下表可以看到，在代码提交之前的活动，是设计和开发类型的活动。这一部分基本上是不可重复的、很难自动化，它的时长也往往难以直接控制。而代码提交到上线主要是测试和运维工作，完全可以做到可重复、自动化、机械化。而这一前置时间的快速完成可以给到前一阶段（设计和开发）足够短的反馈周期，用以快速解决问题和响应客户需求。
+软件交付周期可以以提交到版本控制系统划分为性质截然不同的两个阶段
+如果按照传统的瀑布模型开发软件，可能在测试阶段发现的代码问题已经是在代码完成几个月之后了。在这期间，团队很多开发人员都已经提交过各自的代码，那么如何能让开发人员确认、回忆并找出问题所在呢？这需要花费大量的时间。而高绩效组织少于一个小时的部署前置时间就可以让组织和个人做到快速试错、持续学习。
+四、康威定律的应用 康威定律的描述是“设计系统的组织，其产生的设计和架构等价于组织间的沟通结构“。
+换句话说，团队的组织方式对我们生产的软件，架构设计和生产结果有着重大的影响。为了得到理想的结果，我们需要康威定律为我们的目标服务，而不是给我们制造阻碍。
+Gene Kim本人一直困惑于也这一定律的应用，直到他了解到Etsy的例子：
+ Etsy在2008年有一个前端PHP开发团队负责业务逻辑，和一个后端DBA团队负责存储过程，两个团队协同开发软件。根据康威定律，这自然而然产生了有依赖关系的两层架构。而这种依赖关系使得很多工作都快不起来。</description>
+    </item>
+    
+  </channel>
+</rss>
